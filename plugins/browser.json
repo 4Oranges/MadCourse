@@ -1,0 +1,61 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Camera\"><param name=\"browser-package\" value=\"Camera\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"browser-package\" value=\"Device\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.oauthio.plugins.oauthio": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.battery-status": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "com.daftme.course"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "com.daftme.course"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.daftme.course"
+        }
+    }
+}
